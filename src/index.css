@@ -1,9 +1,20 @@
-
 .hole {
   background: url("/hole.png") no-repeat center/contain;
+  height: 100px;
+  width: 80px;
 }
 
 .mole {
   background-image: url("/mole.png");
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  height: 100px;
+  width: 80px;
 }
 
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 30px;
+}
